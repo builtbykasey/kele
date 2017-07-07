@@ -2,9 +2,7 @@
 
 ### REST API Client
 
-Easy-to-use Gem to access [Bloc's API](http://docs.blocapi.apiary.io/#)
-
-[Demo Site](https://blocipedia-kasey.herokuapp.com)
+API Client Gem built to access [Bloc's REST API](http://docs.blocapi.apiary.io/#)
 
 ## Project Objectives
 
