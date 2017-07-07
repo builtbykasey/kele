@@ -19,7 +19,6 @@ class Kele
 
   def get_me
     response = self.class.get('/users/me', headers: { "authorization" => @user_auth_token })
-    # puts response.body.inspect
     JSON.parse(response.body)
   end
 
@@ -49,6 +48,5 @@ class Kele
     puts response.inspect
     puts "You're message has been sent, yipee!" if response.success?
     end
-
-
+    
 end
