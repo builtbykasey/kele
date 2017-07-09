@@ -6,18 +6,34 @@ API Client Gem built to access [Bloc's REST API](http://docs.blocapi.apiary.io/#
 
 ## Project Objectives
 
-- Retrieves and stores an authentication token when using valid credentials
-- Students can retrieve their info as a JSON blob
+- Kele retrieves and stores an authentication token when passed valid credentials
+- Students can retrieve their info as a JSON blog
 - Students can retrieve a list of their mentor's availability
 - Students can retrieve roadmaps and checkpoints
 - Students can retrieve a list of their messages, respond to an existing message, and create a new message thread
 - Students can submit checkpoint assignments
 
+## Built With
+
+- Ruby 2.3.3
+- HTTParty Gem
+- JSON Gem
+
 ## Setup and Configuration
 
 ### Setup
 
-...
+Add this line to your application's Gemfile:
+
+`gem 'kele'`
+
+And then execute:
+
+`$ bundle install`
+
+Or install it yourself as:
+
+`$ gem install kele`
 
 ### Getting started
 
