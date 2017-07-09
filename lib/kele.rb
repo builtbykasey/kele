@@ -22,9 +22,11 @@ class Kele
     JSON.parse(response.body)
   end
 
-  def get_mentor_availability
-      response = self.class.get('/mentors/2299042/student_availability', headers: { "authorization" => @user_auth_token })
+  def get_mentor_availability(mentor_id)
+      #use same thing from create checkpoint to get my mentor id
+      response = self.class.get("/mentors/#{mentor_id}/student_availability", headers: { "authorization" => @user_auth_token })
       JSON.parse(response.body)
+      #array then return only available
   end
 
     def get_messages(page = 0)
@@ -37,7 +39,7 @@ class Kele
     JSON.parse(response.body)
     end
 
-    def create_message(sender, recipient_id,  subject, stripped_text, token = nil)
+    def create_message(sender, recipient_id, subject, stripped_text, token = nil)
     response = self.class.post("/messages", headers: { "authorization" => @user_auth_token }, body: {
         sender: sender,
         recipient_id: recipient_id,
@@ -45,8 +47,7 @@ class Kele
         subject: subject,
         stripped_text: stripped_text
       })
-    puts response.inspect
     puts "You're message has been sent, yipee!" if response.success?
     end
-    
+
 end
