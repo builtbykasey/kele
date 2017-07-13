@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name          = 'kele'
+  s.name          = 'kele-kasey'
   s.version       = '0.0.1'
   s.date          = '2017-06-04'
   s.summary       = 'Kele API Client'
