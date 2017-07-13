@@ -33,7 +33,7 @@ And then execute:
 
 Or install it yourself as:
 
-``$ gem install ./kele-kasey-0.0.1.gem`
+`$ gem install ./kele-kasey-0.0.1.gem`
 
 ### Getting started
 
