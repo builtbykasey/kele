@@ -25,15 +25,11 @@ API Client Gem built to access [Bloc's REST API](http://docs.blocapi.apiary.io/#
 
 Add this line to your application's Gemfile:
 
-`gem 'kele'`
+`gem 'kele', :git => 'git://github.com/kaseycolleen/kele.git', :branch => 'master'`
 
 And then execute:
 
 `$ bundle install`
-
-Or install it yourself as:
-
-`$ gem install kele`
 
 ### Getting started
 
