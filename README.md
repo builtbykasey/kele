@@ -4,6 +4,8 @@
 
 API Client Gem built to access [Bloc's REST API](http://docs.blocapi.apiary.io/#)
 
+### [Case Study](https://medium.com/@kaseycolleen/kele-api-client-gem-case-study-5566b947fb46)
+
 ## Project Objectives
 
 - Kele retrieves and stores an authentication token when passed valid credentials
