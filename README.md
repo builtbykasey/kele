@@ -25,7 +25,7 @@ API Client Gem built to access [Bloc's REST API](http://docs.blocapi.apiary.io/#
 
 Add this line to your application's Gemfile:
 
-`gem 'kele-kasey'`
+`gem 'kele_kasey'`
 
 And then execute:
 
@@ -33,7 +33,7 @@ And then execute:
 
 Or install it yourself as:
 
-`$ gem install ./kele-kasey-0.0.1.gem`
+`$ gem install ./kele_kasey-0.0.1.gem`
 
 ### Getting started
 
